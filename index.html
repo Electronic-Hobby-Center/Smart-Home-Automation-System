@@ -3,7 +3,7 @@
    <head>
       <title>Smart Home Controller System</title>
       <meta charset="utf-8" />
-      <link href="favicon.ico" rel="icon" />
+      <link href="assets/favicon.ico" rel="icon" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="Smart Home Controller System" />
       <link
@@ -12,12 +12,12 @@
          rel="stylesheet"
          h
       />
-      <link href="bulma-switch.min.css" type="text/css" rel="stylesheet" />
+      <link href="css/bulma-switch.min.css" type="text/css" rel="stylesheet" />
       <script
          src="https://kit.fontawesome.com/cf4fab0a5f.js"
          crossorigin="anonymous"
       ></script>
-      <link href="index.css" type="text/css" rel="stylesheet" />
+      <link href="css/index.css" type="text/css" rel="stylesheet" />
    </head>
    <body class="has-navbar-fixed-top">
       <nav
@@ -27,7 +27,7 @@
       >
          <div class="navbar-brand">
             <a href="#HomePage" class="a">
-               <img src="./smart_home.svg" width="110" height="75" />
+               <img src="assets/smart_home.svg" width="110" height="75" />
             </a>
 
             <a
@@ -86,7 +86,7 @@
          </div>
       </nav>
       <section class="hero is-fullheight-with-navbar" id="HomePage">
-         <img src="./smart_home.svg" alt="smart home" />
+         <img src="assets/smart_home.svg" alt="smart home" />
          <div class="hero-body">
             <div class="container has-text-centered">
                <h1 class="title is-spaced is-1">
@@ -99,7 +99,7 @@
          </div>
       </section>
       <section class="hero is-fullheight-with-navbar is-hidden" id="LightsPage">
-         <img src="./lighthouse_off.svg" alt="lighthouse" />
+         <img src="assets/lighthouse_off.svg" alt="lighthouse" />
          <div class="hero-body">
             <div class="container has-text-centered">
                <header class="title is-2 is-spaced">Lights Control</header>
@@ -115,7 +115,7 @@
          </div>
       </section>
       <section class="hero is-fullheight-with-navbar is-hidden" id="TVPage">
-         <img src="./monitor.svg" alt="monitor" />
+         <img src="assets/monitor.svg" alt="monitor" />
          <div class="hero-body">
             <div class="container has-text-centered">
                <header class="title is-2 is-spaced">TV Control</header>
@@ -194,11 +194,11 @@
             </div>
          </div>
       </section>
-      <script src="boltiotfetch.js" type="text/javascript"></script>
+      <script src="js/boltiotfetch.js" type="text/javascript"></script>
       <script type="text/javascript">
          // The following line will set the api key and device name. It will be auto-initialized by Bolt cloud.
          setKey('{{ApiKey}}', '{{Name}}')
       </script>
-      <script src="index.js" type="text/javascript"></script>
+      <script src="js/index.js" type="text/javascript"></script>
    </body>
 </html>
